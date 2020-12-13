@@ -4,14 +4,15 @@
         <article class="post">
             <div class="title">
                 <a href="{{post.post_url}}" target="_blank">{{post.title}}</a>
-                <span>({{post.post_url}})</span>
             </div>
             <div class="meta">
                 {{post.created_at}}
-                |
+                |{{post.post_text}}
                 <a href="/post/{{post.id}}">{{post.comments.length}} comments(s)</a>
             </div>
         </article>
     </li>
     {{/each}}
 </ol>
+
+
