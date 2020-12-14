@@ -14,6 +14,7 @@ This application is a responsive blog webpage used for the tech community. The u
 * Handlebars.js
 * bcrypt.js
 * dotenv
+* jest
 
 ## Images
 
