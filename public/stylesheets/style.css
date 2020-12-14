@@ -35,6 +35,7 @@ h1 {
     background-color: lightseagreen;
     padding: 5px 10px 5px 10px;
     margin-left: 15px;
+    font-weight: bold;
 }
 
 nav {
@@ -61,6 +62,79 @@ ol li:hover {
     background-color: #B19CD9;
     box-shadow: 0 0 8px rgba(0,0,0,0.5);
 
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+form {
+    text-align: center;
+}
+
+form div input {
+    width: 35%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+form div textarea {
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: lightseagreen;
+    padding: 5px 10px 5px 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.login-form {
+    background-color: gray;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    margin-top: 50px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.login-form div input {
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-form {
+    background-color: gray;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.signup-form div input {
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    border-radius: 5px;
+    background-color: lightseagreen;
+    padding: 5px 10px 5px 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 15px;
 }
 
 footer {
