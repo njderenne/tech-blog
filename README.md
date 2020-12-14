@@ -25,7 +25,7 @@ This application is a responsive blog webpage used for the tech community. The u
 
 ## Link to Live Application on Heroku
 
-
+https://intense-cove-05277.herokuapp.com/
 
 ## Link to GitHub Repository
 
