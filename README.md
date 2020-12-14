@@ -15,7 +15,12 @@ This application is a responsive blog webpage used for the tech community. The u
 * bcrypt.js
 * dotenv
 
+## Images
 
+![Home Page](https://github.com/njderenne/tech-blog/blob/develop/public/images/homepage.JPG?raw=true)
+
+
+![Dashboard](https://github.com/njderenne/tech-blog/blob/develop/public/images/dashboard.JPG?raw=true)
 
 
 ## Link to Live Application on Heroku
