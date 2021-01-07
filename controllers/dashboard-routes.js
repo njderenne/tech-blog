@@ -6,11 +6,11 @@ const withAuth = require('../utils/auth');
 
 
 router.get('/', withAuth, (req, res) => {
-    // if(!req.session.loggedIn) {
-    //     res.redirect('/login');
-    //     return;
-    // }
-    // console.log(req.session);
+    if(!req.session.loggedIn) {
+        res.redirect('/login');
+        return;
+    }
+    console.log(req.session);
 
     Post.findAll({
         where: {
